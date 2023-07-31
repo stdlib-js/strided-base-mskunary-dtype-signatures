@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-mskunary-dtype-signatures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a list of masked unary interface signatures from strided array data types.",
   "license": "Apache-2.0",
   "author": {
