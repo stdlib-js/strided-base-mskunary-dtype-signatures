@@ -40,7 +40,7 @@
     "@stdlib/ndarray-safe-casts": "^0.0.8",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.0.2",
     "@stdlib/strided-base-dtype-resolve-str": "^0.0.2",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
