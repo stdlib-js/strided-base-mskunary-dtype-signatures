@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/strided-base-mskunary-dtype-signatures
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-dtype-signatures@esm/index.mjs';
+var signatures = require( '@stdlib/strided-base-mskunary-dtype-signatures' );
 ```
 
 #### signatures( dtypes1, dtypes2\[, options] )
@@ -125,15 +141,10 @@ var sigs = signatures( dtypes, dtypes, options );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dtypes@esm/index.mjs';
-import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@esm/index.mjs';
-import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-dtype-signatures@esm/index.mjs';
+```javascript
+var dtypes = require( '@stdlib/strided-dtypes' );
+var replace = require( '@stdlib/string-replace' );
+var signatures = require( '@stdlib/strided-base-mskunary-dtype-signatures' );
 
 // Get the list of supported strided array data types:
 var dt = dtypes();
@@ -144,10 +155,6 @@ var sigs = signatures( dt, dt );
 // Format the output:
 var str = replace( JSON.stringify( sigs ), /("[^"]+","[^"]+","[^"]+"),/g, '$1,\n' );
 console.log( str );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -166,6 +173,12 @@ console.log( str );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/strided-base/mskunary-signature-callbacks`][@stdlib/strided/base/mskunary-signature-callbacks]</span><span class="delimiter">: </span><span class="description">assign callbacks to masked unary interfaces according to type promotion rules.</span>
+
 </section>
 
 <!-- /.related -->
@@ -179,7 +192,7 @@ console.log( str );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -239,9 +252,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-mskunary-dtype-signatures/main/LICENSE
 
-[@stdlib/strided/dtypes]: https://github.com/stdlib-js/stdlib/tree/esm
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes
 
-[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/stdlib/tree/esm
+[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/ndarray-promotion-rules
+
+<!-- <related-links> -->
+
+[@stdlib/strided/base/mskunary-signature-callbacks]: https://github.com/stdlib-js/strided-base-mskunary-signature-callbacks
+
+<!-- </related-links> -->
 
 </section>
 
