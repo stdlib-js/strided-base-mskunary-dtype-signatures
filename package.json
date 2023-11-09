@@ -41,13 +41,13 @@
     "@stdlib/strided-base-dtype-resolve-enum": "^0.1.0",
     "@stdlib/strided-base-dtype-resolve-str": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.1",
     "@stdlib/assert-is-integer-array": "^0.1.0",
     "@stdlib/assert-is-string-array": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/strided-base-dtype-str2enum": "^0.1.0",
     "@stdlib/strided-dtypes": "^0.1.0",
     "@stdlib/string-replace": "^0.1.1",
