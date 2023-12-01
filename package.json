@@ -47,7 +47,7 @@
     "@stdlib/assert-is-array": "^0.1.1",
     "@stdlib/assert-is-integer-array": "^0.1.0",
     "@stdlib/assert-is-string-array": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/strided-base-dtype-str2enum": "^0.1.0",
     "@stdlib/strided-dtypes": "^0.1.0",
     "@stdlib/string-replace": "^0.1.1",
