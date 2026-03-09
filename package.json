@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-safe-casts": "^0.4.0",
+    "@stdlib/ndarray-safe-casts": "^0.4.1",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.2.3",
     "@stdlib/strided-base-dtype-resolve-str": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
@@ -50,11 +50,11 @@
     "@stdlib/assert-is-string-array": "^0.2.3",
     "@stdlib/strided-base-dtype-str2enum": "^0.2.3",
     "@stdlib/strided-dtypes": "^0.3.1",
-    "@stdlib/string-replace": "^0.2.2",
+    "@stdlib/string-replace": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
